@@ -7,7 +7,7 @@ import sys
 from code import InteractiveConsole
 from cStringIO import StringIO
 
-from tornado.netutil import TCPServer
+from tornado import TCPServer
 
 
 class BackdoorShell(InteractiveConsole):
